@@ -57,7 +57,7 @@
     display: inline-block;
     padding: 16px 20px;
     border-radius: 16px;
-    background: linear-gradient(77deg, #167700 0%, #2FBD10 50%, #24A607 100%);
+    background: linear-gradient(94.21deg, #008037 4.48%, #16944c 87.94%) ;
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
@@ -75,6 +75,66 @@
 
 
 /* section 1 header */
+
+
+/* side bar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 16px 32px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  color: #008037;
+    font-family: Manrope;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  color: #008037;
+  font-size: 36px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidebar-click-data{
+  font-size:25px;
+  cursor:pointer;
+  color:white;
+  margin-left: 10px;
+}
+
+
+
+
+/* side bar */
+
+
+
+
+
+
 
 .main-container-data {
     margin: 2% 3%;
@@ -96,7 +156,7 @@
   }
   
   .header-container , .data-header-container{
-    background: #24A608; 
+    background: #008037; 
   }
   
   .logo img {
